@@ -1,0 +1,5 @@
+cd C:\xampp\htdocs\fah31\phpd\mvc3_phpd\admin\daten
+
+mysqldump -u root -B mvc3 > dump_mvc3.sql
+
+mysql -u root < dump_mvc3.sql

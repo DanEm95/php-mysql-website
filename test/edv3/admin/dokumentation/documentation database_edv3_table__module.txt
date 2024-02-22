@@ -1,0 +1,30 @@
+00:08:05
+
+// create database edv3 with table module
+edv3.sql
+CREATE DATABASE edv3;
+USE edv3;
+
+001_table_module.sql
+CREATE TABLE module (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ titel VARCHAR(50) NOT NULL,
+ beschreibung TEXT NOT NULL,
+ preis DECIMAL(6,2) NOT NULL
+);
+
+
+// insert csv data into table module
+002_csv_insert_to_module.sql
+LOAD DATA INFILE 'C:/xampp/htdocs/fah31/phpb/edv3/admin/daten/CSV/module.csv'
+INTO TABLE module
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(id, titel, beschreibung, preis);
+
+
+5	PHPE	Objektorientierte Programmierung mit PHP: PHP-Fallstudie	1222.00
+
+

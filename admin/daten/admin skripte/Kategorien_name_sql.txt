@@ -1,0 +1,11 @@
+SELECT seminare.id, kategorien_id FROM seminare
+JOIN kategorien
+ON kategorien_id = kategorien.id
+WHERE seminare.id = 1;
+
+
+
+SELECT kategorien FROM kategorien
+JOIN seminare
+on kategorien_id = kategorien.id
+WHERE kategorien.id = 4;

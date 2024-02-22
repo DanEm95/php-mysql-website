@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #F8F9FA;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #FFFFFF;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1 {
+            color: #581845;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 2px solid #581845;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #581845;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .hover-effect {
+            transition: all 0.3s ease-in-out;
+        }
+        .hover-effect:hover {
+            transform: scale(1.05);
+            color: #007BFF;
+        }
+		input[type="button"] {
+			background-color: #581845;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			cursor: pointer;
+			font-size: 16px;
+			transition: background-color 0.3s;
+		}
+
+		input[type="button"]:hover {
+			background-color: #7a2857;
+		}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Impressum</h1>
+        <p>Herzlich Wilkommen auf der Impressumswebseite unserer EDV-Schule.</p>
+        <h2>Kontaktdaten</h2>
+        <ul>
+            <li><strong>EDV-Schule:</strong> Maybachstraße 77, Hamburg 22761, Germany</li>
+            <li><strong>Telefon:</strong> +49 (0) 123 4567890</li>
+            <li><strong>E-Mail:</strong> <a href="#" class="hover-effect">info@edv-schule.de</a></li>
+        </ul>
+        <h2>Redaktionell Verantwortlicher</h2>
+        <ul>
+            <li><strong>Name:</strong> Dan Brown</li>
+            <li><strong>Telefon:</strong> +49 (0) 123 4567891</li>
+            <li><strong>E-Mail:</strong> <a href="#" class="hover-effect">dan.brown@edv-schule.de</a></li>
+        </ul>
+        <h2>Haftungsausschluss</h2>
+        <p>Trotz sorgfältiger inhaltlicher und redaktioneller Kontrolle übernehmen wir keine Haftung für den Inhalt externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</p>
+		
+		<input type="button" value="Zurück zur Hauptseite" onclick="location.href='../index.php'">
+		<p>&copy; 2024 EDV-Schule. Alle Rechte vorbehalten.</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?php require_once "../admin/views/navi_admin.php"; ?>
+
+
+<?php
+	if (isset($_SESSION['id']) && eingeloggt($_SESSION['id'])) 
+	{
+		require_once "../admin/views/navi_admin.php";
+	}
+	else
+	{
+		require_once "views/admin_login.php";
+	}
+?>
+

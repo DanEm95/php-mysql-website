@@ -1,0 +1,13 @@
+Unser MVC_PHPD Projekt, eine Website mit MVC, PHP und MySQL, war eine vielseitige und lehrreiche Erfahrung.
+Dank der klaren Struktur, die MVC bietet, konnte ich effizient entwickeln.
+Natürlich gab es auch Herausforderungen, wie das Verknüpfen von Funktionen und Dateien oder das Optimieren von MySQL-Abfragen.
+Diese Herausforderungen haben mich jedoch motiviert, Verbesserungen vorzunehmen und mir gezeigt das man ein großes Problem auch in kleine aufteilen kann.
+
+Die Kombination von den Technologien hat zu einer leistungsfähigen und eleganten Website geführt.
+Bei diesem Projekt habe ich mich auf die Funktionalität der Website konzentriert und daher das Bootstrap-Framework für den Stil im Meta-Index verwendet.
+Die Admin-Index ist ohne Bootstrap verlinkung und hat seine eigene CSS-Datei.
+
+Dieses Projekt war eine großartige Erfahrung, die Herausforderungen, Ermutigung und Spaß mit sich brachte.
+Persönlich bin ich an diesem Projekt gewachsen und habe gelernt, die PHP-Dokumentation auf W3Schools intensiver zu nutzen.
+Es hat mir gezeigt, wie wertvoll es ist, Ressourcen effektiv zu nutzen und ständig dazuzulernen.
+Alles in allem war es ein bereicherndes Projekt, das sowohl meine technischen Fähigkeiten als auch meine persönliche Entwicklung gefördert hat.

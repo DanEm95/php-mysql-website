@@ -1,0 +1,9 @@
+cd xampp/htdocs/fah31
+
+md mvc_phpd
+
+cd mvc_phpd
+
+start create_app.bat
+
+tree

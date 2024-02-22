@@ -1,0 +1,3 @@
+cd xampp\htdocs\fah31\phpd\mvc3_phpd\admin\daten
+
+start create_database.bat

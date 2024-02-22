@@ -1,0 +1,11 @@
+mysql -u root < mvc3.sql
+mysql -u root < 001_seminare_fk_kategorien.sql
+mysql -u root < 002_termine_fk.sql
+mysql -u root < 003_personen_termine_fk.sql
+mysql -u root < 004_seminare_daten.sql
+mysql -u root < 005_kategorien_daten.sql
+mysql -u root < 006_standorte_daten.sql
+mysql -u root < 007_termine_daten.sql
+mysql -u root < 008_personen_daten.sql
+mysql -u root < 009_personen_termine_daten.sql
+mysql -u root < 010_create_admin.sql
